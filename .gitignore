@@ -12,5 +12,4 @@ node_modules/
 # Java
 target/
 
-
 db.sqlite3
