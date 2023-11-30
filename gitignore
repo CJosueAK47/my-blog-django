@@ -1,0 +1,13 @@
+# Arquivos temporários do Windows
+Thumbs.db
+Desktop.ini
+
+# Diretórios específicos da IDE
+.idea/
+.vscode/
+
+# Node.js
+node_modules/
+
+# Java
+target/
