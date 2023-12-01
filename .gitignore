@@ -1,15 +1,22 @@
-# Arquivos temporários do Windows
-Thumbs.db
-Desktop.ini
+# Arquivos de configuração
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
 
-# Diretórios específicos da IDE
-.idea/
-.vscode/
+# Arquivos de ambiente
+.env
+.env.local
+.env.dev
+.env.prod
 
-# Node.js
-node_modules/
+# Diretórios gerados pelo Python
+__pycache__/
+.pytest_cache/
 
-# Java
-target/
-
+# Arquivos de log e banco de dados
+*.log
 db.sqlite3
+
+# Arquivos temporários
+*.bak
