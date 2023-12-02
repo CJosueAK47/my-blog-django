@@ -1,0 +1,22 @@
+# Arquivos de configuração
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.dev
+.env.prod
+
+# Diretórios gerados pelo Python
+__pycache__/
+.pytest_cache/
+
+# Arquivos de log e banco de dados
+*.log
+db.sqlite3
+
+# Arquivos temporários
+*.bak
