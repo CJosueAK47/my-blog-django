@@ -1,4 +1,4 @@
-{% extends "base.html" %} 
+{% extends "base.html" %}
 {% block content %}
 
 <header class="masthead">
@@ -6,11 +6,11 @@
     <div class="container">
         <div class="row">
             <div class=" col-md-8 col-md-10 mx-auto">
-                <div class="site-heading">
-                    <h3 class=" site-heading my-4 mt-3 text-white"> Bem-Vindo ao meu Blog </h3>
-                    <p class="text-light">Usando Django &nbsp
-                    </p>
+                <div class="site-heading d-flex align-items-center">
+                    <img style="height:60px; border-radius: 50%; margin-top: 40px;" src="https://static.vecteezy.com/system/resources/previews/002/285/954/non_2x/orange-fruit-logo-design-illustration-icon-free-vector.jpg" alt="">
+                    <h3 style="padding-left: 10px;" class=" site-heading my-1 mt-5 text-white"> My Fruits </h3>
                 </div>
+                <p style="padding-left: 70px;" class="text-light">Falando sobre Frutas &nbsp</p>
             </div>
         </div>
     </div>
@@ -20,11 +20,15 @@
             font-size: 18px;
             background-color: #fdfdfd;
         }
-        
+        .btn{
+          background-color: #00643c;
+          padding: 8px;
+          text-decoration: none;
+        }
         .head_text {
             color: white;
         }
-        
+
         .card {
             box-shadow: 0 16px 48px #E3E7EB;
         }
@@ -40,7 +44,7 @@
                     <h2 class="card-title">{{ post.title }}</h2>
                     <p class="card-text text-muted h6">{{ post.author }} | {{ post.created_on}} </p>
                     <p class="card-text">{{post.content|slice:":200" }}</p>
-                    <a href="{% url 'post_detail' post.slug  %}" class="btn btn-primary">Read More &rarr;</a>
+                    <a href="{% url 'post_detail' post.slug  %}" class="btn btn-primary">Leia Mais &rarr;</a>
                 </div>
             </div>
             {% endfor %}
