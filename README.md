@@ -2,6 +2,7 @@
 Blog Pessoal com Django
 
 user name: admin
+
 password: 101001
 
 ## Table of Contents 📚
