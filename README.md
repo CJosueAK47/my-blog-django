@@ -5,14 +5,6 @@ user name: admin
 
 password: 101001
 
-## Table of Contents 📚
-
-- Description
-- Installation
-- Usage
-- Contribution
-- Contact
-
 ## Description 📝
 
 The "mysite-django" is a blog where you can include, edit, and delete posts through Django admin. Additionally, you can view a list of all posts and the details of each post in a view stylized with HTML and CSS in your browser.
